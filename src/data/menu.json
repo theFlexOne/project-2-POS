@@ -1,0 +1,87 @@
+{
+  "menu": {
+    "pizza": {
+      "one-topping": {
+        "prices": {
+          "small": 10,
+          "medium": 12,
+          "large": 14
+        }
+      },
+      "specialty": {
+        "types": [
+          "supreme",
+          "veggie",
+          "meat-lovers"
+        ],
+        "prices": {
+          "small": 13,
+          "medium": 15.50,
+          "large": 18
+        }
+      },
+      "toppings": {
+        "types": [
+          "pepperoni",
+          "sausage",
+          "canadian-bacon",
+          "green-peppers",
+          "onions",
+          "black-olives",
+          "mushrooms"
+        ],
+        "prices": {
+          "small": 0.50,
+          "medium": 0.75,
+          "large": 1
+        }
+      }
+    },
+    "pasta": {
+      "prices": {
+        "small": 6,
+        "large": 9
+      },
+      "types": [
+        "alfredo-pasta",
+        "marinara-pasta",
+        "mac-n-cheese"
+      ],
+      "extras": [
+        "parmesan-cheese"
+      ]
+    },
+    "wings": {
+      "prices": {
+        "10pc": 10,
+        "20pc": 18,
+        "40pc": 35
+      },
+      "types": [
+        "bone-in",
+        "bone-out"
+      ],
+      "sauces": [
+        "mild", "medium", "hot", "honey-bbq", "plain"
+      ],
+      "extras": []
+    },
+    "sides": {
+      "dipping-sauces": []
+    },
+    "drinks": {
+      "two-liters": [
+        "coke", "diet-coke", "sprite", "dr-pepper"
+      ],
+      "twenty-onces": ["coke", "diet-coke", "sprite", "dr-pepper"]
+    },
+    "desert": {
+      "lava-cake": {
+        "price": 5
+      },
+      "funnel-fries": {
+        "price": 4
+      }
+    }
+  }
+}
