@@ -6,10 +6,10 @@ import Checkout from '../Checkout/Checkout';
 import NewCustomer from '../NewCustomer/NewCustomer';
 import './App.css';
 
-import { menu } from '../../data/menuData.json';
+// import { menu } from '../../data/menuData.json';
 
 const mainScreens = {
-  NewOrder: <NewOrder menu={menu} />,
+  NewOrder: <NewOrder />,
   // SignIn: <SignIn />,
   // Checkout: <Checkout />,
   // NewCustomer: <NewCustomer />,

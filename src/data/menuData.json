@@ -1,6 +1,7 @@
 {
   "menu": {
     "pizzas": {
+      "id": 1,
       "types": {
         "one-topping": {
           "small": 10,
@@ -41,6 +42,7 @@
       }
     },
     "pasta": {
+      "id": 2,
       "prices": {
         "small": 6,
         "large": 9,
@@ -56,6 +58,7 @@
       ]
     },
     "wings": {
+      "id": 3,
       "prices": {
         "10pc": 10,
         "20pc": 18,
@@ -71,15 +74,18 @@
       "extras": []
     },
     "sides": {
+      "id": 4,
       "dipping-sauces": []
     },
     "drinks": {
+      "id": 5,
       "two-liters": [
         "coke", "diet-coke", "sprite", "dr-pepper"
       ],
       "twenty-onces": ["coke", "diet-coke", "sprite", "dr-pepper"]
     },
     "desert": {
+      "id": 6,
       "lava-cake": {
         "price": 5
       },

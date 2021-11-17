@@ -14,4 +14,9 @@
   width: 100%;
   height: 2rem;
   text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.Top-Bar-cell > * {
+  margin: 0;
 }
