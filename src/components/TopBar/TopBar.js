@@ -1,5 +1,5 @@
-const InfoBar = () => {
-  return ( 
+const TopBar = () => {
+  return (
     <header className="info-bar" id="infoBar">
       <div className="info" id="date"></div>
       <div className="info" id="time"></div>
@@ -8,7 +8,7 @@ const InfoBar = () => {
       <div className="info"></div>
       <div className="info"></div>
     </header>
-   );
-}
- 
-export default InfoBar;
+  );
+};
+
+export default TopBar;

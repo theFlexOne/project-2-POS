@@ -1,16 +1,25 @@
-import './components/css/App.css';
+import React, { useState } from 'react';
+import SignIn from '../SignIn/SignIn';
+import NewOrder from '../NewOrder/NewOrder';
+import Checkout from '../Checkout/Checkout';
+// import Customer from '../Customer/Customer';
+import NewCustomer from '../NewCustomer/NewCustomer';
+import './App.css';
+
+import { menu } from '../../data/menuData.json';
+
+const mainScreens = {
+  NewOrder: <NewOrder menu={menu} />,
+  // SignIn: <SignIn />,
+  // Checkout: <Checkout />,
+  // NewCustomer: <NewCustomer />,
+};
 
 function App() {
+  const [activeScreen, setActiveScreen] = useState(mainScreens.NewOrder);
 
-  const mainScreens = [<SignIn />, <Order />, <Checkout />, <NewCustomer />]
-
-
-  return (
-    <div className="App">
-      <InfoBar />
-      <Main screens={mainScreens} />
-    </div>
-  );
+  console.log(activeScreen);
+  return activeScreen;
 }
 
 export default App;

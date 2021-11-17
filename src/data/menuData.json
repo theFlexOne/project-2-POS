@@ -1,23 +1,26 @@
 {
   "menu": {
-    "pizza": {
-      "one-topping": {
-        "prices": {
+    "pizzas": {
+      "types": {
+        "one-topping": {
           "small": 10,
           "medium": 12,
           "large": 14
-        }
-      },
-      "specialty": {
-        "types": [
-          "supreme",
-          "veggie",
-          "meat-lovers"
-        ],
-        "prices": {
-          "small": 13,
-          "medium": 15.50,
-          "large": 18
+        },
+        "supreme": {
+          "small": 10,
+          "medium": 12,
+          "large": 14
+        },
+        "meat lovers": {
+          "small": 10,
+          "medium": 12,
+          "large": 14
+        },
+        "veggie lovers": {
+          "small": 10,
+          "medium": 12,
+          "large": 14
         }
       },
       "toppings": {
@@ -40,7 +43,8 @@
     "pasta": {
       "prices": {
         "small": 6,
-        "large": 9
+        "large": 9,
+        "extras": 0.75
       },
       "types": [
         "alfredo-pasta",
